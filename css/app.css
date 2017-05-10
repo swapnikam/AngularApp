@@ -1,0 +1,67 @@
+header {
+  border: 1px solid;
+  overflow: hidden;
+  padding: 10px;
+}
+header h3 {
+  margin: 0;
+}
+header .logo {
+  margin-top: 5px;
+}
+.user-info input {
+  width: 255px;
+  border: none;
+}
+.search {
+    border: 1px solid;
+    width: 300px;
+    border-radius: 15px;
+    padding: 0 5px;
+    margin-top: 7px;
+}
+.user-info input:focus {
+  outline: none;
+}
+.search img{
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
+}
+.info {
+    margin-top: 7px;
+}
+.info img {
+    width: 16px;
+    height: 16px;
+}
+.profile {
+    margin-top: -7px;
+    border: 1px solid;
+    overflow: hidden;
+    width: 45px;
+}
+.profile img{
+  width: 100%;
+}
+.users-row{
+  width: 88%;
+  padding: 15px 45px;
+  border-bottom: 1px solid;
+  margin: 0px 40px;
+  overflow:hidden;
+}
+.users-row .img-wrapr{
+    width: 100px;
+    height: 100px;
+}
+.users-row .img-thumbnail{
+  width: 100%;
+}
+.users-row .basic-info {
+  padding: 20px 20px 0 20px;
+  width: 90%;
+}
+.padd20 {
+  padding-left: 20px;
+}

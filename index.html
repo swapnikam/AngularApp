@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="userApp" class="no-js">
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Scholar App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" /> 
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+
+<body>  
+  <div ng-include="'partials/header.html'"></div>
+  <div ng-view></div>
+  
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-route/angular-route.js"></script>  
+  <script src="js/app.js"></script>
+  <script src="js/services/httpService.js"></script>
+  <script src="js/services/userService.js"></script>
+  <script src="pages/user-list/list-user.js"></script>
+  <script src="pages/view-profile/view-profile.js"></script>
+  <script src="pages/edit-profile/edit-profile.js"></script>
+</body>
+</html>
